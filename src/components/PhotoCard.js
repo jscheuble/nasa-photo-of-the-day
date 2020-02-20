@@ -9,7 +9,7 @@ export default function PhotoCard(props) {
         <div className="card">
             <p>{props.date}</p>
             <p>{props.title}</p>
-            <img src={props.url}/>
+            <img src={props.url} alt="NASA space photo of the day!"/>
             <p>{props.explanation}</p>
         </div>
     );
