@@ -14,10 +14,11 @@ background: url(${ background });
 `;
 
 const StyledHeading = styled.h1`
-    color: white;
+    color: #FA3232;
     padding-bottom: 2%;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
+    font-size: 5rem;
 `;
 
 
